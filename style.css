@@ -1,3 +1,74 @@
-.nav ul {
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;500;700&family=Playfair+Display:wght@500&family=Poppins:ital,wght@0,500;0,600;0,700;1,600&family=Prompt:wght@500&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: #1c41d6;
+    color: white;
+    height: 65px;
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    padding: 0 12px;
+    font-family: 'League Spartan', sans-serif;
+}
+
+nav ul {
     list-style-type: none;
+}
+
+.gameContainer {
+    display: flex;
+    /* background-color: aqua; */
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.container {
+    display: grid;
+    grid-template-rows: repeat(3, 10vw);
+    grid-template-columns: repeat(3, 10vw);
+    font-family: 'League Spartan', sans-serif;
+}
+
+.box {
+    border: 1.5px solid black;
+    font-size: 10vw;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding-top: 17px;
+}
+
+.box:hover {
+    background-color: #d1d8eb;
+    ;
+}
+
+.gameInfo {
+    padding: 0 30px;
+}
+
+.imgbox {
+    display: none;
+}
+
+.br-0 {
+    border-right: 0;
+}
+
+.bl-0 {
+    border-left: 0;
+}
+
+.bt-0 {
+    border-top: 0;
+}
+
+.bb-0 {
+    border-bottom: 0;
 }
