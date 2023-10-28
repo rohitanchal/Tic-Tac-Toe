@@ -50,17 +50,28 @@ nav ul {
     ;
 }
 
+.gamestatus {
+    display: flex;
+    align-items: center;
+}
+
+.info {
+    font-size: 25px;
+}
+
 .gameInfo {
     padding: 0 30px;
     font-family: 'League Spartan', sans-serif;
 }
 
 .gameInfo h1 {
-    margin-bottom: 10px;
+    font-size: 35px;
+    margin-bottom: 15px;
 }
 
-.imgbox {
-    display: none;
+.imgbox img {
+    width: 0;
+    transition: width 1s ease-in-out;
 }
 
 .br-0 {
@@ -77,4 +88,17 @@ nav ul {
 
 .bb-0 {
     border-bottom: 0;
+}
+
+#reset {
+    font-family: 'League Spartan';
+    cursor: pointer;
+    background-color: #e9d9f3;
+    /* border-style: none; */
+    margin: 0 23px;
+    padding: 5px 18px 5px 18px;
+    border-radius: 6px;
+    font-size: 15px;
+    font-weight: 500;
+    /* border: 1px solid #1c41d6; */
 }
