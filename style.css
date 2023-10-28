@@ -2,6 +2,7 @@
 * {
     margin: 0;
     padding: 0;
+    font-family: 'League Spartan', sans-serif;
 }
 
 nav {
@@ -45,12 +46,17 @@ nav ul {
 }
 
 .box:hover {
-    background-color: #d1d8eb;
+    background-color: #e2e6f0;
     ;
 }
 
 .gameInfo {
     padding: 0 30px;
+    font-family: 'League Spartan', sans-serif;
+}
+
+.gameInfo h1 {
+    margin-bottom: 10px;
 }
 
 .imgbox {
