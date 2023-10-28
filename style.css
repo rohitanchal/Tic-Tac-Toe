@@ -102,3 +102,20 @@ nav ul {
     font-weight: 500;
     /* border: 1px solid #1c41d6; */
 }
+
+@media screen and (max-width: 950px) {
+    .gameContainer {
+        flex-wrap: wrap;
+    }
+    .gameInfo {
+        margin-top: 50px;
+    }
+    .gameInfo h1 {
+        font-size: 1.6rem;
+    }
+    .container {
+        grid-template-rows: repeat(3, 20vw);
+        grid-template-columns: repeat(3, 20vw);
+        font-family: 'League Spartan', sans-serif;
+    }
+}
